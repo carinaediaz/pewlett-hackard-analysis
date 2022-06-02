@@ -192,3 +192,23 @@ FROM dept_manager AS dm
 		ON (dm.dept_no = d.dept_no)
 	INNER JOIN current_emp AS ce
 		ON (dm.emp_no = ce.emp_no);
+
+-- Joining retirement_info with departments for the Sales department only 
+SELECT ri.emp_no,
+	ri.first_name,
+	ri.last_name,
+	de.dept_no
+FROM retirement_info as ri
+LEFT JOIN dept_emp as de
+ON (ri.emp_no = de.emp_no)
+WHERE dept_no = 'd007';
+
+-- Joining retirement_info with departments for Sales and Developement departments, using IN instead of OR
+SELECT ri.emp_no,
+	ri.first_name,
+	ri.last_name,
+	de.dept_no
+FROM retirement_info as ri
+LEFT JOIN dept_emp as de
+ON (ri.emp_no = de.emp_no)
+WHERE dept_no IN ('d007', 'd005');
