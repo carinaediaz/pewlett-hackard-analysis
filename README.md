@@ -1,2 +1,4 @@
-# pewlett-hackard-analysis
-Analyzing Pewlett Hackard's HR data
+# Pewlett Hackard Analysis  
+## Overview
+## Results
+## Summary
