@@ -7,7 +7,7 @@
 - "Senior Engineer" is the title with the most retiring employees and "Manager" is the title with the least retiring employees. 
 - 1,549 employees are currently eligble for the mentorship program. 
 - Of these eligible employees, the most common title is "Senior Staff" and the least common is "Assistant Engineer". 
-![]()
-![]()
+![employees_retiring_by_title.PNG](https://github.com/carinaediaz/pewlett-hackard-analysis/blob/main/Images/employees_retiring_by_title.PNG)
+![employees_mentorship_by_title.PNG](https://github.com/carinaediaz/pewlett-hackard-analysis/blob/main/Images/employees_mentorship_by_title.PNG)
 ## Summary
 ##### Pewlett Hackard will have a significant number of their employees retiring over the next four years, with the company needing to fill 72,458 positions as the 'silver tsunami' retires. Based on the mentorship elegibility table we created, there will not be nearly enough internal employees to fill these positions. Pewlett Hackard will need to either expand their elegibility criteria for the mentorship program or begin to look at hiring from outside the firm. 
